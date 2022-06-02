@@ -12,9 +12,7 @@
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     line-height: 1.71;
-}
-
-.address__link:hover,
-.address__link:focus {
-    color: var(--accent-color);
+    &:hover, &:focus {
+        color: var(--accent-color);
+    }
 }

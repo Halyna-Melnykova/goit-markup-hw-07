@@ -19,16 +19,16 @@
     outline: transparent;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            background-color: #188ce8;
+        }
 }
 
 .hero__btn {
     padding: 10px 32px;
 }
 
-.button:hover,
-.button:focus {
-    background-color: #188ce8;
-}
 .footer__btn {
     padding: 10px auto;
 }
